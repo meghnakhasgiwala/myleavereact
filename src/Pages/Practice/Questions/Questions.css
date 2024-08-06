@@ -1,0 +1,62 @@
+#QuestionsContainer
+{
+    min-width: 100vh;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 1.5rem;
+    padding: 2rem 4rem;
+    /* background-color: rgb(139, 231, 200); */
+}
+
+.QuestionCard
+{
+
+   height: fit-content;
+   background-color: rgb(207, 228, 226);
+   display: flex;
+   padding: 1rem 2rem;
+   margin: 1rem;
+
+ 
+    
+}
+
+.QuestionCard div
+{
+
+    display: flex;
+    column-gap: 1rem;
+    position: relative;
+    left: 5rem;
+    margin-top: 4rem;
+}
+
+.QuestionCard h2
+{
+
+    position: absolute;
+    left: 4rem;
+    font-weight: 400;
+    color: rgb(50, 46, 46);
+    width: 85%;
+    text-align: left;
+}
+.QuestionCard h3
+{
+    position: absolute;
+    
+}
+.QuestionCard button
+{
+    position: absolute;
+    right: 1rem;
+
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 0.5rem 1rem;
+    margin-right: 1rem;
+}
